@@ -42,7 +42,7 @@ ws.onmessage = async event => {
             else
                 {distance.innerHTML="Out of Range";}
             }
-        else if(data.charCodeAt(2)==99)
+        else if(data.charCodeAt(1)==153)
         { voltage.innerHTML = (data.charCodeAt(3) * 256 + data.charCodeAt(4));}
         
 

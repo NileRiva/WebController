@@ -9,7 +9,7 @@ import socket
 HOST = ""  # The server's hostname or IP address
 PORT = 2001  # The port used by the server
 
-query_list = [49,99]
+query_list = [49]
 
 @app.websocket("/gobot")
 async def test(websocket: WebSocket):
